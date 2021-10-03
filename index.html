@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Meeting Minutes</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Meeting notes for a SWE team meetng">
+    <link rel="icon" href="/img/favicon-16x16.png">
+</head>
+
+<body>
+    <header>
+        <h1 id="name">Dr. Doofenshmirtz's Bread-Inator Brainstorm</h1>
+        <h2>May, 24, 2008 7PM</h2>
+        <nav>
+            <ul>
+                <li><a href="#brainstorming">Brainstorming</a></li>
+                <li><a href="#documentations">Documentations</a></li>
+            </ul>
+        </nav>
+        <hr>
+    </header>
+    <main>
+        <h3>Attendance:</h3>
+        <input type="checkbox" id="member1" name="vehicle1" value="HeinzDoofenshmirtz">
+        <label for="member1"> Heinz Doofenshmirtz</label><br>
+        <input type="checkbox" id="member2" name="vehicle2" value="VanessaDoofenshmirtz">
+        <label for="member2">Vanessa Doofenshmirtz</label><br>
+        <input type="checkbox" id="member3" name="vehicle3" value="PerryThePlatypus">
+        <label for="member3"> Perry The Platypus</label><br>
+
+        <h2>Agenda:</h2>
+        <ul>
+            <li>Take attendance</li>
+            <li>Brainstorm plan for Bread-inator</li>
+            <details>
+                <summary>Unfinished business</summary>
+                Recap progress for Gloom-inator 3000-inator: failed bc of Agent P
+            </details>
+            <details>
+                <summary>New business</summary>
+                Come up with cool names for new inventions
+            </details>
+            <details>
+                <summary>Other topics</summary>
+                <li>How do we take over the entire tri-state area? - Heinz</li>
+                <li><em>Prrrrrrrrr</em> - Perry</li>
+                <li>Dad, you're embarassing - Vanessa</li>
+            </details>
+
+        </ul>
+
+        <h2 id="brainstorming">Brainstorming</h2>
+        <p>
+            There's a hundred and four days of summer vacation<br>
+            Then school comes along just to end it<br>
+            So the annual problem for our generation<br>
+            Is finding a good way to spend it<br><br>
+
+            Like maybe...<br>
+            Building a rocket<br>
+            Or fighting a mummy<br>
+            Or climbing up the Eiffel Tower<br><br>
+
+            Discovering something that doesn't exist<br>
+            <b>Phineas: </b><i>Hey!</i><br>
+            Or giving a monkey a shower<br>
+            Surfing tidal waves<br>
+            Creating nanobots<br>
+            Or locating Frankenstein's brain<br>
+            <b>Phineas:</b> <i>It's over here!</i><br><br>
+
+            Finding a dodo bird<br>
+            Painting a continent<br>
+            Or driving our sister insane<br>
+            Candace: Phineas!<br><br>
+
+            As you can see<br>
+            There's a whole lot of stuff to do<br>
+            Before school starts this fall<br>
+            Phineas: Come on Perry!<br>
+            So stick with us<br>
+            'Cause Phineas and Ferb are gonna do it all!<br>
+            So stick with us<br>
+            'Cause Phineas and Ferb are gonna do it all!<br><br>
+
+            <b>Candace: </b><i>Mom! Phineas and Ferb are making a title sequence!</i><br>
+            <strong> Curse you, Perry the Platypus! </strong><br><br>
+        </p>
+        <h2 id="#documentations">Documentations</h2>
+        <h3>Inator Blueprint</h3>
+        <img src="img/inatorblueprint.jpg" alt="Inator Blueprint">
+
+        <details>
+            <summary>Requirements</summary>
+            <ol>
+                <li>be really big</li>
+                <li>be really cool</li>
+                <li> turns statue of U.S. President Rutherford B. Hayes into bread</li>
+            </ol>
+        </details>
+
+        <h2>Video and Voice Recordings</h2>
+        <video width="320" height="240" controls>
+            <source src="/img/Every Doofenshmirtz plot in 39 seconds.mp4" type="video/mp4">
+
+        </video>
+        <audio controls>
+            <source src="/img/Every Doofenshmirtz plot in 39 seconds.mp3" type="audio/mpeg">
+        </audio>
+
+        <section id="feedback">
+            <h2>Feedback</h2>
+            <div class="useless-div-lol">
+                <form>
+                    <label for="fname">First name:</label><br>
+                    <input type="text" id="fname" name="fname" placeholder="Heinz" value=""><br>
+                    <label for="lname">Last name:</label><br>
+                    <input type="text" id="lname" name="lname" placeholder="Doofenshmirtz" value=""><br><br>
+
+                    <fieldset>
+                        <legend>The length of this meeting was</legend>
+
+                          <input type="radio" id="too-short" name="duration" value="Too short">
+                          <label for="too-short">Too short</label><br>
+
+                          <input type="radio" id="just-right" name="duration" value="Just right">
+                          <label for="just-right">Just right</label><br>
+
+                          <input type="radio" id="too-long" name="duration" value="Too long">
+                          <label for="too-long">Too long</label>
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Based on their performance during the meeting, the member we should kick off the team is
+                        </legend>
+
+                          <label for="removed-member">Choose a member to destroy:</label>
+                        <select name="removed-member" id="removed-member">
+                            <option value="heinz">Heinz</option>
+                            <option value="vanessa">Vanessa</option>
+                            <option value="perry">Perry</option>
+                        </select>
+                    </fieldset>
+
+
+
+                    <fieldset>
+                        <legend>A person I would recommend for this team/project is
+                        </legend>
+                        <label for="new-member">Candidates:</label>
+                        <input list="new-member-choices" id="new-member" name="new-member" />
+
+                        <datalist id="new-member-choices">
+                            <option value="Candance">
+                            <option value="Phineas">
+                            <option value="Ferb">
+                            <option value="Isabella">
+                            <option value="Jeremy">
+                        </datalist>
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>My next available date for a team meeting is</legend>
+                        <label for="start">Start date:</label>
+                        <input type="date" id="start" name="trip-start" value="2008-08-25" min="2008-08-25"
+                            max="2023-01-01"><br><br>
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Additional comments
+                        </legend>
+                        <textarea
+                            placeholder="Wow, if I had a nickel every time I was doomed by a puppet, I'd have two nickels. Which isn't a lot. But it's weird that it happened twice, right?"></textarea>
+                    </fieldset>
+
+
+
+
+                    <button>Submit feedback</button>
+
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer><a href="#name"><span> Back to the top</span></a></footer>
+</body>
+
+</html>
